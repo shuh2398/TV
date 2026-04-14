@@ -1,0 +1,36 @@
+# CODEOWNERS файл / CODEOWNERS fayli
+#
+# Определяет, кто обязан одобрить изменения в каждом разделе репозитория.
+# Формат: <путь>   <@username1> <@username2>
+#
+# ⚠️ ВАЖНО: username'ы ниже — ПЛЕЙСХОЛДЕРЫ. Замените их на реальные
+# GitHub-логины заместителей, когда они зарегистрируют аккаунты.
+#
+# Чтобы правило РАБОТАЛО, в настройках GitHub (Settings → Branches →
+# Branch protection rules) включите:
+#   1. Require a pull request before merging
+#   2. Require review from Code Owners
+
+# ---- По умолчанию: аппарат заместителя хакима области ----
+*   @TODO-apparat-obl
+
+# ---- 13 районов / 13 tuman ----
+/districts/01-qarshi/        @TODO-deputy-qarshi        @TODO-apparat-obl
+/districts/02-kitob/         @TODO-deputy-kitob         @TODO-apparat-obl
+/districts/03-shahrisabz/    @TODO-deputy-shahrisabz    @TODO-apparat-obl
+/districts/04-yakkabog/      @TODO-deputy-yakkabog      @TODO-apparat-obl
+/districts/05-chiroqchi/     @TODO-deputy-chiroqchi     @TODO-apparat-obl
+/districts/06-guzor/         @TODO-deputy-guzor         @TODO-apparat-obl
+/districts/07-qamashi/       @TODO-deputy-qamashi       @TODO-apparat-obl
+/districts/08-kasbi/         @TODO-deputy-kasbi         @TODO-apparat-obl
+/districts/09-koson/         @TODO-deputy-koson         @TODO-apparat-obl
+/districts/10-mirishkor/     @TODO-deputy-mirishkor     @TODO-apparat-obl
+/districts/11-muborak/       @TODO-deputy-muborak       @TODO-apparat-obl
+/districts/12-nishon/        @TODO-deputy-nishon        @TODO-apparat-obl
+/districts/13-dehqonobod/    @TODO-deputy-dehqonobod    @TODO-apparat-obl
+
+# ---- Общие документы правит только аппарат области ----
+/docs/       @TODO-apparat-obl
+/.github/    @TODO-apparat-obl
+README.md    @TODO-apparat-obl
+LICENSE      @TODO-apparat-obl
