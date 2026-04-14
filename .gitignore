@@ -1,0 +1,22 @@
+# Операционные системы / OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# MS Office временные файлы / Office temp files
+~$*.doc
+~$*.docx
+~$*.xls
+~$*.xlsx
+~$*.ppt
+~$*.pptx
+
+# Редакторы / Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Архивы логов / Logs
+*.log
