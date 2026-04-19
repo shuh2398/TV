@@ -1,0 +1,151 @@
+# Проверенные данные по Кировской области (Российская Федерация)
+#
+# Правила заполнения — те же, что и для kashkadarya.yaml:
+#   - value: null, если нет первичного источника;
+#     source: null в этом же случае;
+#   - verified_at — дата последней ручной сверки (YYYY-MM-DD);
+#   - вторичные источники — только с requires_confirmation: true;
+#   - числа — в исходных единицах источника.
+#
+# ВНИМАНИЕ: любая российская организация перед включением в
+# stakeholders/ru/ проходит проверку по процедуре
+# risks/sanctions-check.md. Санкционный статус фиксируется в
+# отдельном блоке карточки стейкхолдера, а не здесь.
+
+region:
+  name_ru: "Кировская область"
+  country:
+    value: "Российская Федерация"
+    source: "общеизвестный административный факт (Конституция РФ)"
+  administrative_center:
+    value: "Киров"
+    source: null
+    verified_at: null
+  federal_district:
+    value: null
+    source: null
+    verified_at: null
+
+geography:
+  area_km2:
+    value: null
+    source: null
+    verified_at: null
+  municipalities_count:
+    value: null
+    source: null
+    verified_at: null
+
+demography:
+  population_total:
+    value: null
+    as_of_date: null
+    source: null
+    verified_at: null
+  urban_share_percent:
+    value: null
+    source: null
+    verified_at: null
+
+economy:
+  grp_current_prices:
+    value: null
+    currency: null
+    as_of_date: null
+    source: null
+    verified_at: null
+  grp_per_capita:
+    value: null
+    currency: null
+    source: null
+    verified_at: null
+  key_industries:
+    value: null
+    source: null
+    verified_at: null
+  exports_total:
+    value: null
+    currency: null
+    as_of_date: null
+    source: null
+    verified_at: null
+  trade_with_uzbekistan:
+    # Объёмы торговли именно Кировской области с Узбекистаном —
+    # заполняется только по данным ФТС / региональной статистики,
+    # НЕ по пресс-релизам.
+    value: null
+    currency: null
+    as_of_date: null
+    source: null
+    verified_at: null
+
+investment_regime:
+  special_economic_zones:
+    value: null
+    source: null
+    verified_at: null
+  industrial_parks:
+    value: null
+    source: null
+    verified_at: null
+  tax_preferences:
+    value: null
+    source: null
+    verified_at: null
+  regional_investment_agency:
+    value: null
+    source: null
+    verified_at: null
+
+infrastructure:
+  railway_connections:
+    value: null
+    source: null
+    verified_at: null
+  highways:
+    value: null
+    source: null
+    verified_at: null
+  airports:
+    value: null
+    source: null
+    verified_at: null
+
+partnership_focus_sectors:
+  # Отрасли, в которых предполагается искать партнёров
+  # (заполняется только после согласования с заказчиком и
+  # подтверждения данных по Кашкадарье).
+  value: null
+  source: null
+  verified_at: null
+
+existing_uz_ru_cooperation:
+  signed_agreements:
+    # Только подписанные документы, с реквизитами.
+    value: null
+    source: null
+    verified_at: null
+  joint_working_groups:
+    value: null
+    source: null
+    verified_at: null
+
+contacts:
+  regional_government_site:
+    value: null
+    source: null
+    verified_at: null
+  ministry_of_economic_development:
+    value: null
+    source: null
+    verified_at: null
+  chamber_of_commerce:
+    value: null
+    source: null
+    verified_at: null
+
+notes:
+  - "Утверждения о заинтересованности кировских компаний в проекте"
+  - "недопустимы без подписанного документа или публичного заявления."
+  - "Санкционный статус компании фиксируется в её карточке в"
+  - "stakeholders/ru/, а не в этом файле."

@@ -1,0 +1,153 @@
+# Проверенные данные по Кашкадарьинской области (Qashqadaryo viloyati)
+#
+# Правила заполнения:
+#   - Каждое значимое поле имеет пару: value + source.
+#   - Если данные не подтверждены первичным источником — value: null
+#     и source: null. В этом случае вопрос обязан присутствовать в
+#     questions-open.md.
+#   - Поле source ссылается на запись в data/sources.md (ключ)
+#     ИЛИ содержит прямую ссылку на официальный документ с датой.
+#   - Числа приводятся в исходных единицах источника; пересчёты
+#     запрещены без отдельного поля converted_from.
+#   - verified_at — дата последней ручной сверки (YYYY-MM-DD).
+
+region:
+  name_ru: "Кашкадарьинская область"
+  name_uz: "Qashqadaryo viloyati"
+  country:
+    value: "Республика Узбекистан"
+    source: "общеизвестный административный факт (Конституция РУз)"
+  administrative_center:
+    value_ru: "Карши"
+    value_uz: "Qarshi"
+    source: null
+    verified_at: null
+
+geography:
+  area_km2:
+    value: null
+    source: null
+    verified_at: null
+  districts_count:
+    value: null
+    source: null
+    verified_at: null
+  districts_list:
+    value: null
+    source: null
+    verified_at: null
+
+demography:
+  population_total:
+    value: null
+    as_of_date: null
+    source: null
+    verified_at: null
+  urban_share_percent:
+    value: null
+    source: null
+    verified_at: null
+  economically_active_population:
+    value: null
+    source: null
+    verified_at: null
+
+economy:
+  grp_current_prices:
+    value: null
+    currency: null
+    as_of_date: null
+    source: null
+    verified_at: null
+  grp_per_capita:
+    value: null
+    currency: null
+    source: null
+    verified_at: null
+  key_industries:
+    # Список заполняется только по перечням из официальных
+    # стратегических документов (например, постановлений
+    # Кабинета Министров РУз или решений хокимията).
+    value: null
+    source: null
+    verified_at: null
+  exports_total:
+    value: null
+    currency: null
+    as_of_date: null
+    source: null
+    verified_at: null
+  fdi_total:
+    value: null
+    currency: null
+    as_of_date: null
+    source: null
+    verified_at: null
+
+investment_regime:
+  free_economic_zones:
+    # Например, СЭЗ "Qarshi" — заполнять только по официальным
+    # нормативным актам.
+    value: null
+    source: null
+    verified_at: null
+  small_industrial_zones:
+    value: null
+    source: null
+    verified_at: null
+  tax_preferences:
+    value: null
+    source: null
+    verified_at: null
+  customs_preferences:
+    value: null
+    source: null
+    verified_at: null
+  authorized_bodies:
+    value: null
+    source: null
+    verified_at: null
+
+infrastructure:
+  railway_connections:
+    value: null
+    source: null
+    verified_at: null
+  highways:
+    value: null
+    source: null
+    verified_at: null
+  airports:
+    value: null
+    source: null
+    verified_at: null
+  power_generation:
+    value: null
+    source: null
+    verified_at: null
+  gas_fields:
+    value: null
+    source: null
+    verified_at: null
+
+priority_sectors_declared:
+  # Официально заявленные приоритеты — только со ссылкой на
+  # стратегию/постановление.
+  value: null
+  source: null
+  verified_at: null
+
+contacts:
+  hokimiyat_official_site:
+    value: null
+    source: null
+    verified_at: null
+  investment_deputy_office:
+    value: null
+    source: null
+    verified_at: null
+
+notes:
+  - "Любое заполненное выше значение должно иметь запись в data/sources.md."
+  - "Заполнять по одному полю за раз, не массово."
+  - "Вторичные источники — только с пометкой requires_confirmation: true."
