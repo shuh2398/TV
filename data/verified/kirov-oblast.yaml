@@ -1,0 +1,177 @@
+# Проверенные данные по Кировской области Российской Федерации.
+#
+# ВНИМАНИЕ. Все значения должны сопровождаться полем `source`.
+# Если данных нет — оставить `null` и отразить в ../../questions-open.md.
+# Не заполнять правдоподобными догадками.
+#
+# Любое упоминание российских компаний/банков в целях потенциального
+# сотрудничества должно пройти санкционный скрининг по
+# ../../risks/sanctions-check.md до включения в рабочие документы.
+
+region:
+  name_ru: "Кировская область"
+  country: "Российская Федерация"
+  administrative_center_ru: "г. Киров"
+  federal_district: null
+  source:
+    title: null
+    org: null
+    url: null
+    accessed: null
+    note: "Федеральный округ подтвердить ссылкой на официальный документ (указ Президента РФ о федеральных округах)."
+
+geography:
+  area_km2:
+    value: null
+    source: null
+  coordinates:
+    value: null
+    source: null
+  neighboring_regions:
+    - name: null
+      source: null
+
+demography:
+  population_total:
+    value: null
+    as_of: null
+    source:
+      title: null
+      org: "Росстат"
+      url: null
+      accessed: null
+      note: "НЕ ЗНАЮ ДОСТОВЕРНО — подтвердить по оценке численности населения Росстата."
+  urban_share_percent:
+    value: null
+    source: null
+  labor_force:
+    value: null
+    source: null
+
+economy:
+  grp_total:
+    value: null
+    currency: null
+    year: null
+    source: null
+  grp_per_capita:
+    value: null
+    currency: null
+    year: null
+    source: null
+  key_sectors:
+    - name: null
+      share_percent: null
+      source: null
+  industrial_output:
+    value: null
+    currency: null
+    year: null
+    source: null
+  agricultural_output:
+    value: null
+    currency: null
+    year: null
+    source: null
+  foreign_trade:
+    export_total:
+      value: null
+      currency: null
+      year: null
+      source: null
+    import_total:
+      value: null
+      currency: null
+      year: null
+      source: null
+    trade_with_uzbekistan:
+      export_to_uz:
+        value: null
+        currency: null
+        year: null
+        source: null
+      import_from_uz:
+        value: null
+        currency: null
+        year: null
+        source: null
+      note: "НЕ ЗНАЮ ДОСТОВЕРНО — требуется выписка ФТС РФ / статистики региональной ТПП."
+
+industrial_profile:
+  # Кировская область исторически ассоциируется с лесопромышленным,
+  # химическим, машиностроительным и биотехнологическим кластерами.
+  # Конкретные показатели — только по Росстату / отчётам региона.
+  clusters:
+    - name: null
+      description: null
+      source: null
+  major_enterprises:
+    - name: null
+      sector: null
+      ownership: null
+      sanctioned: null   # true/false/unknown — см. risks/sanctions-check.md
+      source: null
+
+infrastructure:
+  railways_km:
+    value: null
+    source: null
+  highways_km:
+    value: null
+    source: null
+  airports:
+    - name: null
+      iata: null
+      status: null
+      source: null
+  logistics_hubs:
+    - name: null
+      status: null
+      source: null
+
+investment_framework:
+  lead_agency_ru: null
+  contact:
+    phone: null
+    email: null
+    website: null
+    source: null
+  special_regimes:
+    - name: null
+      legal_basis: null
+      description: null
+      source: null
+
+bilateral_ties_with_uzbekistan:
+  # Документально зафиксированные связи между Кировской областью и РУз
+  # (соглашения, визиты, торгпредства, ТПП, породнённые города и т. п.).
+  # Без документа — не вписывать.
+  agreements:
+    - title: null
+      parties: null
+      signed_date: null
+      source: null
+  twin_cities:
+    - uz_city: null
+      ru_city: null
+      year: null
+      source: null
+  business_missions:
+    - date: null
+      description: null
+      source: null
+
+sanctions_status:
+  region_level_restrictions: null
+  note: "Страновой/региональный санкционный статус — фиксировать
+         только со ссылкой на официальные списки (OFAC, EU, UK и пр.).
+         См. ../../risks/sanctions-check.md."
+  source: null
+
+meta:
+  last_reviewed: null
+  reviewer: null
+  notes: |
+    Шаблон с null-значениями. Любое заполнение требует source.
+    До включения любой российской контрпартии в рабочие документы —
+    провести санкционный скрининг.
