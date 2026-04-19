@@ -1,0 +1,105 @@
+# Верифицированные данные: Кашкадарьинская область (Qashqadaryo viloyati)
+# Республика Узбекистан / O'zbekiston Respublikasi
+#
+# ПРАВИЛО: каждое не-null поле обязано иметь `source`.
+# null без source = НЕ ЗНАЮ ДОСТОВЕРНО — одновременно открыть запись
+# в ../../questions-open.md.
+# Официальные названия — в оригинале (узбекский/русский).
+
+region:
+  name_uz: "Qashqadaryo viloyati"
+  name_ru: "Кашкадарьинская область"
+  country: "O'zbekiston Respublikasi / Республика Узбекистан"
+  admin_center_uz: "Qarshi shahri"
+  admin_center_ru: "город Карши"
+  source:
+    title: null  # НЕ ЗНАЮ ДОСТОВЕРНО — нужна ссылка на официальный справочник
+    url: null
+    date: null
+
+geography:
+  area_km2: null            # НЕ ЗНАЮ ДОСТОВЕРНО
+  population_total: null    # НЕ ЗНАЮ ДОСТОВЕРНО
+  population_date: null
+  districts_count: null     # НЕ ЗНАЮ ДОСТОВЕРНО (tuman)
+  cities_count: null        # НЕ ЗНАЮ ДОСТОВЕРНО
+  source: null
+
+administration:
+  hokim_position_uz: "Qashqadaryo viloyati hokimi"
+  hokim_position_ru: "хоким Кашкадарьинской области"
+  hokim_name: null                     # НЕ ЗНАЮ ДОСТОВЕРНО — только при наличии открытого источника
+  deputy_investments_name: null        # НЕ ЗНАЮ ДОСТОВЕРНО
+  hokimiyat_website: null              # НЕ ЗНАЮ ДОСТОВЕРНО (проверить: https://kashkadarya.uz ?)
+  contact_phone: null
+  contact_email: null
+  source: null
+
+economy:
+  grp_total: null              # Валовой региональный продукт
+  grp_currency: null           # UZS / USD — указать при заполнении
+  grp_year: null
+  grp_source: null
+
+  main_industries:             # только факты, каждый пункт — с источником
+    - name: null
+      share_percent: null
+      source: null
+
+  export_total: null
+  export_currency: null
+  export_year: null
+  export_source: null
+
+  import_total: null
+  import_currency: null
+  import_year: null
+  import_source: null
+
+free_economic_zones:
+  - name_uz: "Erkin iqtisodiy zona \"Qarshi\""
+    name_ru: "Свободная экономическая зона «Каршы»"
+    established_date: null         # НЕ ЗНАЮ ДОСТОВЕРНО — номер и дата указа Президента РУз
+    establishing_document: null    # Оригинальное название указа / постановления
+    residents_count: null
+    residents_date: null
+    specialization: null
+    source: null
+
+key_sectors:
+  oil_and_gas:
+    note: null                  # НЕ ЗНАЮ ДОСТОВЕРНО
+    operators: []               # заполнять только с источником
+    source: null
+  agriculture:
+    note: null
+    main_crops: []
+    source: null
+  textile:
+    note: null
+    source: null
+  mining:
+    note: null
+    source: null
+
+infrastructure:
+  railway_connection: null      # НЕ ЗНАЮ ДОСТОВЕРНО
+  airport: null
+  highways: null
+  source: null
+
+investment_regime:
+  incentives_document: null     # Оригинальное название закона/постановления об инвестициях
+  incentives_summary: null      # После заполнения документа
+  tax_holidays_sez: null
+  source: null
+
+international_cooperation:
+  sister_regions: []            # только задокументированные
+  signed_agreements: []         # только задокументированные (memorandums, soglasheniya)
+  source: null
+
+notes: |
+  Все поля с null требуют проверки и ссылки на первоисточник.
+  До появления источника — считать значение неизвестным.
+  Официальные названия на узбекском языке сохраняются в оригинале.

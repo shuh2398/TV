@@ -1,0 +1,99 @@
+# Верифицированные данные: Кировская область
+# Российская Федерация
+#
+# ПРАВИЛО: каждое не-null поле обязано иметь `source`.
+# null без source = НЕ ЗНАЮ ДОСТОВЕРНО — одновременно открыть запись
+# в ../../questions-open.md.
+# Официальные названия органов и программ — в оригинале (русский).
+# Перед упоминанием любой компании как потенциального партнёра —
+# проверка по ../../risks/sanctions-check.md обязательна.
+
+region:
+  name_ru: "Кировская область"
+  country: "Российская Федерация"
+  admin_center: "город Киров"
+  source:
+    title: null  # НЕ ЗНАЮ ДОСТОВЕРНО — добавить ссылку на официальный справочник
+    url: null
+    date: null
+
+geography:
+  area_km2: null            # НЕ ЗНАЮ ДОСТОВЕРНО
+  population_total: null    # НЕ ЗНАЮ ДОСТОВЕРНО
+  population_date: null
+  districts_count: null     # муниципальные районы + городские округа
+  source: null
+
+administration:
+  governor_position: "Губернатор Кировской области"
+  governor_name: null                     # НЕ ЗНАЮ ДОСТОВЕРНО
+  government_website: null                # НЕ ЗНАЮ ДОСТОВЕРНО
+  economic_development_ministry: null     # официальное название ведомства
+  international_affairs_contact: null
+  source: null
+
+economy:
+  grp_total: null
+  grp_currency: null
+  grp_year: null
+  grp_source: null
+
+  main_industries: []          # каждый пункт с отдельным source
+
+  export_total: null
+  export_currency: null
+  export_year: null
+  export_source: null
+
+  import_total: null
+  import_currency: null
+  import_year: null
+  import_source: null
+
+institutes_of_development:
+  # Институты развития региона — только с источником (сайт, учредительный документ)
+  - name: null                 # например: «Корпорация развития Кировской области» — требует проверки
+    role: null
+    website: null
+    contact: null
+    source: null
+
+key_sectors:
+  chemical_industry:
+    note: null                 # НЕ ЗНАЮ ДОСТОВЕРНО
+    source: null
+  forestry_and_woodworking:
+    note: null
+    source: null
+  machinery:
+    note: null
+    source: null
+  agriculture:
+    note: null
+    source: null
+  biotech_pharma:
+    note: null
+    source: null
+
+potential_partners:
+  # ВАЖНО: включать только компании, по которым есть открытый источник.
+  # Перед внесением — проверить санкционный статус и занести результат
+  # в stakeholders/ru/<компания>.md.
+  companies: []
+
+trade_with_uzbekistan:
+  turnover_total: null
+  turnover_currency: null
+  turnover_year: null
+  source: null
+  existing_ties_with_kashkadarya: null    # НЕ ЗНАЮ ДОСТОВЕРНО
+
+sister_regions:
+  # Побратимские/партнёрские соглашения региона
+  list: []
+  source: null
+
+notes: |
+  Все поля с null требуют проверки и ссылки на первоисточник.
+  Санкционный статус российских контрагентов проверяется отдельно
+  в risks/sanctions-check.md.
