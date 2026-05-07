@@ -1,0 +1,197 @@
+# Проверенные данные по Кашкадарьинской области Республики Узбекистан.
+#
+# ВНИМАНИЕ. Все значения должны сопровождаться полем `source`.
+# Если данных нет — оставить значение `null` и пометить в
+# `../../questions-open.md`. Не заполнять правдоподобными догадками.
+# Официальные названия — в оригинале (узбекский/русский), с пометкой.
+
+region:
+  name_ru: "Кашкадарьинская область"
+  name_uz: "Qashqadaryo viloyati"
+  country: "Республика Узбекистан / O'zbekiston Respublikasi"
+  administrative_center_ru: "г. Карши"
+  administrative_center_uz: "Qarshi shahri"
+  source:
+    title: null
+    org: null
+    url: null
+    accessed: null
+    note: "Название и адм. центр — общеизвестные; подтвердить ссылкой на официальный документ о территориальном устройстве РУз."
+
+geography:
+  area_km2:
+    value: null
+    source:
+      title: null
+      org: null
+      url: null
+      accessed: null
+      note: "НЕ ЗНАЮ ДОСТОВЕРНО — требуется ссылка на Агентство статистики РУз или постановление о границах области."
+  districts_count:
+    value: null
+    source:
+      title: null
+      org: null
+      url: null
+      accessed: null
+  coordinates:
+    value: null
+    source: null
+
+demography:
+  population_total:
+    value: null
+    as_of: null
+    source:
+      title: null
+      org: null
+      url: null
+      accessed: null
+      note: "НЕ ЗНАЮ ДОСТОВЕРНО — Агентство статистики РУз, демографический ежегодник."
+  urban_share_percent:
+    value: null
+    source: null
+  labor_force:
+    value: null
+    source: null
+
+economy:
+  grp_total:
+    value: null
+    currency: null
+    year: null
+    source: null
+    note: "ВРП области за конкретный год. НЕ ЗНАЮ ДОСТОВЕРНО."
+  grp_per_capita:
+    value: null
+    currency: null
+    year: null
+    source: null
+  key_sectors:
+    - name: null
+      share_percent: null
+      source: null
+  industrial_output:
+    value: null
+    currency: null
+    year: null
+    source: null
+  agricultural_output:
+    value: null
+    currency: null
+    year: null
+    source: null
+  foreign_trade:
+    export_total:
+      value: null
+      currency: null
+      year: null
+      source: null
+    import_total:
+      value: null
+      currency: null
+      year: null
+      source: null
+    top_partners:
+      - country: null
+        share_percent: null
+        source: null
+
+natural_resources:
+  # Кашкадарьинская область исторически связана с добычей газа
+  # (Мубарек, Шуртан и др.). Конкретные объёмы — только из
+  # официальных отчётов «Узбекнефтегаза» / Минэнерго РУз.
+  gas_fields:
+    - name: null
+      status: null
+      operator: null
+      source: null
+  oil_fields:
+    - name: null
+      status: null
+      source: null
+  mineral_resources:
+    - type: null
+      location: null
+      source: null
+
+infrastructure:
+  railways_km:
+    value: null
+    source: null
+  highways_km:
+    value: null
+    source: null
+  airports:
+    - name: null
+      iata: null
+      status: null
+      source: null
+  border_crossings:
+    - name: null
+      country: null
+      status: null
+      source: null
+  energy:
+    power_plants:
+      - name: null
+        capacity_mw: null
+        fuel: null
+        source: null
+
+free_economic_zones:
+  - name_ru: null
+    name_uz: null
+    established_by: null
+    date: null
+    residents_count:
+      value: null
+      as_of: null
+      source: null
+    preferences:
+      description: null
+      legal_basis: null
+      source: null
+
+investment_framework:
+  lead_agency_ru: null
+  lead_agency_uz: null
+  contact:
+    phone: null
+    email: null
+    website: null
+    source: null
+  incentives:
+    - name: null
+      legal_basis: null
+      description: null
+      source: null
+
+priority_projects:
+  # Заполнять строго по опубликованному реестру (постановление
+  # правительства РУз / хокимията). Не вписывать проекты «по слухам».
+  - id: null
+    name_ru: null
+    name_uz: null
+    sector: null
+    capex:
+      value: null
+      currency: null
+      source: null
+    status: null
+    source: null
+
+key_enterprises:
+  # Только компании с публично подтверждённым присутствием в области.
+  - name: null
+    sector: null
+    ownership: null
+    source: null
+
+meta:
+  last_reviewed: null
+  reviewer: null
+  notes: |
+    Шаблон создан с null-значениями. Любое заполнение требует source.
+    При отсутствии данных — оставлять null и заводить пункт в
+    questions-open.md. См. .cursorrules.
